@@ -1,0 +1,568 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavin Goutham H - Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'resume/styles.css' %}">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="topbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span>Kavin Goutham H</span>
+            </div>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#hobbies" class="nav-link">Hobbies</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="profile-img">
+                <img src="{% static 'resume/profile.jpg' %}" alt="Profile Picture">
+            </div>
+            <div class="header-info">
+                <h1>Kavin Goutham H</h1>
+                <h2>AI&DS Student</h2>
+                <p class="tagline">Hello! Welcome to my Resume-Webpage</p>
+            </div>
+        </header>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>kavingouthamh@gmail.com</span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>+91 9791174740</span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Chennai, Tamil Nadu, India</span>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/kavin-goutham-h-060889320/">linkedin.com</a>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/Kavin070">github.com</a>
+            </div>
+        </section>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- About Section -->
+            <section class="section" id="about">
+                <h3><i class="fas fa-user"></i> About Me</h3>
+                <p>Motivated and detail-oriented second-year undergraduate student with a good academic foundation and a keen interest in Artificial Intelligence. Eager to apply classroom knowledge to real-world challenges through internships and project work. Known for efficient problem-solving abilities, quick learning, and effective communication. Actively building technical and professional skills through academic projects, online courses, and collaborative team activities.</p>
+                <br>
+                <h3><i class="fas fa-tools"></i>Expertise</h3>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Hard Skills</h4>
+                        <div class="skills-list">
+                            <span class="skill">Programming knowledge</span>
+                            <span class="skill">Design & Creative</span>
+                            <span class="skill">Project Management</span>
+                            <span class="skill">Languages</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Soft Skills</h4>
+                        <div class="skills-list">
+                            <span class="skill">Leadership</span>
+                            <span class="skill">Adaptability</span>
+                            <span class="skill">Time Management</span>
+                            <span class="skill">Teamwork</span>
+                            <span class="skill">Problem Solving</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- hobbies -->
+            <section class="section" id="hobbies">
+                <h3><i class="fas fa-heart"></i> Hobbies</h3>
+                <ul class="hobbies-list">
+                    <p>Sports</p>
+                    <p>Photography</p>
+                    <p>Travelling</p>
+                    <p>Cooking</p>
+                    <p>Music</p>
+                    <p>Exercising</p>
+                </ul>
+            </section>
+
+            <!-- Education Section -->
+            <section class="section" id="education">
+                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                <h4>School</h4>
+                <br>
+
+                <div class="education-item">
+                    <span class="school">Chinmaya Vidyalaya Sr Sec School</span>
+                    <span class="duration">2009 - 2023</span>
+                    <p>10th Board - 84.2%</p>
+                    <p>12th Board - 88%</p>
+                </div>
+                <h4>College</h4>
+                <br>
+
+                <div class="education-item">
+                    <span class="school">Easwari Engineering College</span>
+                    <span class="duration">2023 - Present</span>
+                    <p>B.Tech - Artificial Intelligence and Data Science</p>
+                    <p>Current CGPA - 8.35</p>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="section" id="skills">
+                <h3><i class="fas fa-code"></i> Technical Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Programming Languages</h4>
+                        <div class="skills-list">
+                            <span class="skill">Python</span>
+                            <span class="skill">C</span>
+                            <span class="skill">C++</span>
+                            <span class="skill">Java</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Web Technologies</h4>
+                        <div class="skills-list">
+                            <span class="skill">HTML</span>
+                            <span class="skill">CSS</span>
+                            <span class="skill">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Frameworks</h4>
+                        <div class="skills-list">
+                            <span class="skill">Django</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Databases</h4>
+                        <div class="skills-list">
+                            <span class="skill">SQL</span>
+                            <span class="skill">MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Tools & Platforms</h4>
+                        <div class="skills-list">
+                            <span class="skill">Power BI</span>
+                            <span class="skill">VS Code</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section class="section" id="experience">
+                <h3><i class="fas fa-briefcase"></i> Work Experience</h3>
+                <h4>INTERNSHIPS</h4>
+                <br>
+                <div class="experience-item">
+                    <div class="job-header">  
+                        <span class="company">VLOG INNOVATIONS</span>
+                        <span class="duration">Dec 2024 - Dec 2024</span>
+                    </div>
+                    <ul>
+                        <li>Gained hands-on experience with POWER BI by designing interactive dashboards and data visualizations.</li>
+                        <li>Developed a predictive model to estimate future electricity bills using historical consumption data.</li>
+                        <li>Applied data analysis techniques to identify trends and improve reporting accuracy.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <span class="company">SAITECK ERP SOLUTIONS</span>
+                        <span class="duration">May 2025 - June 2025</span>
+                    </div>
+                    <ul>
+                        <li>Learnt HTML, CSS, JAVASCRIPT.</li>
+                        <li>Worked on a real-time web dashboard for monitoring port entry and exit data.</li>
+                        <li>Implemented predictive features to analyze traffic patterns and forecast port activity.</li>
+                        <li>Collaborating with the client to ensure the dashboard meets operational requirements and delivers actionable insights.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="section" id="projects">
+                <h3><i class="fas fa-project-diagram"></i> Featured Projects</h3>
+                
+                <div class="project-item">
+                    <h4>Electricity Bill Prediction</h4>
+                    <p class="project-tech">Django • React • PostgreSQL • Stripe API</p>
+                    <p>Full-featured e-commerce platform with user authentication, product catalog, shopping cart, and payment processing. Implemented admin dashboard for inventory management.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <h4>Port Entry & Exit Dashboard</h4>
+                    <p class="project-tech">Django • HTML • CSS • JavaScript • AJAX JQuery • SQLite</p>
+                    <p>Collaborative dashboard webpage with real-time updates, Admin roles, User roles, Terminal and Gate details customization using CRUD operations and also to manually enter data in case of hardware failure. Features include interactive interface and database to store the datas and predict future trends.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+            <section class="section" id="certifications">
+                <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                <div class="certification-list">
+                    <h4>Internship Certifications</h4>
+                    <div class="certification-item" data-cert="intern1">
+                        <div class="certification-header">
+                            <h4>VLOG INNOVATIONS</h4>
+                            <div style="display: flex; align-items: center;">
+                                <span class="cert-date">2024</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="cert-dropdown">
+                            <div class="cert-image">
+                                <img src="{% static 'resume/intern1.png' %}" alt="VLOG INNOVATIONS" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certification-item" data-cert="intern2">
+                        <div class="certification-header">
+                            <h4>SAITECK ERP SOLUTIONS</h4>
+                            <div style="display: flex; align-items: center;">
+                                <span class="cert-date">2025</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="cert-dropdown">
+                            <div class="cert-image">
+                                <img src="{% static 'resume/intern2.jpg' %}" alt="SAITECK ERP SOLUTIONS" >
+                            </div>
+                        </div>
+                    </div>
+                    <h4>NPTEL Certifications</h4>
+                    <div class="certification-item" data-cert="nptel1">
+                        <div class="certification-header">
+                            <h4>Introduction to Industry 4.0 and Industrial Internet of Things</h4>
+                            <div style="display: flex; align-items: center;">
+                                <span class="cert-date">2024</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="cert-dropdown">
+                            <div class="cert-image">
+                                <img src="{% static 'resume/nptel1.png' %}" alt="Introduction to Industry 4.0 and Industrial Internet of Things" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certification-item" data-cert="nptel2">
+                        <div class="certification-header">
+                            <h4>Entrepreneurship</h4>
+                            <div style="display: flex; align-items: center;">
+                                <span class="cert-date">2024</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="cert-dropdown">
+                            <div class="cert-image">
+                                <img src="{% static 'resume/nptel2.png' %}" alt="Entrepreneurship" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certification-item" data-cert="nptel3">
+                        <div class="certification-header">
+                            <h4>Business Ethics</h4>
+                            <div style="display: flex; align-items: center;">
+                                <span class="cert-date">2025</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="cert-dropdown">
+                            <div class="cert-image">
+                                <img src="{% static 'resume/nptel3.png' %}" alt="Business Ethics" >
+                            </div>
+                        </div>
+                    </div>
+                    <h4>Other Certifications</h4>
+                    <div class="certification-item" data-cert="mongodb">
+                        <div class="certification-header">
+                            <h4>MongoDB Certification</h4>
+                            <div style="display: flex; align-items: center;">
+                                <span class="cert-date">2024</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="cert-dropdown">
+                            <div class="cert-image">
+                                <img src="{% static 'resume/MongoDB.png' %}" alt="MongoDB Certification">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certification-item" data-cert="datascience">
+                        <div class="certification-header">
+                            <h4>Data Science With Python</h4>
+                            <div style="display: flex; align-items: center;">
+                                <span class="cert-date">2024</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="cert-dropdown">
+                            <div class="cert-image">
+                                <img src="{% static 'resume/datascience.png' %}" alt="Data Science With Python">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certification-item" data-cert="javaoops">
+                        <div class="certification-header">
+                            <h4>Java OOPs Concepts</h4>
+                            <div style="display: flex; align-items: center;">
+                                <span class="cert-date">2024</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="cert-dropdown">
+                            <div class="cert-image">
+                                <img src="{% static 'resume/javaoops.png' %}" alt="Java OOPs Concepts">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certification-item" data-cert="javacore">
+                        <div class="certification-header">
+                            <h4>Programming in Core Java</h4>
+                            <div style="display: flex; align-items: center;">
+                                <span class="cert-date">2024</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="cert-dropdown">
+                            <div class="cert-image">
+                                <img src="{% static 'resume/javacore.png' %}" alt="Programming in Core Java">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certification-item" data-cert="java">
+                        <div class="certification-header">
+                            <h4>Java OOP: Understanding Inheritance & Polymorphism in Java</h4>
+                            <div style="display: flex; align-items: center;">
+                                <span class="cert-date">2024</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="cert-dropdown">
+                            <div class="cert-image">
+                                <img src="{% static 'resume/java.png' %}" alt="Java OOP: Understanding Inheritance & Polymorphism in Java">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certification-item" data-cert="python">
+                        <div class="certification-header">
+                            <h4>Python Essentials 1</h4>
+                            <div style="display: flex; align-items: center;">
+                                <span class="cert-date">2025</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="cert-dropdown">
+                            <div class="cert-image">
+                                <img src="{% static 'resume/Cisco.png' %}" alt="Python Essentials 1 Certification">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certification-item" data-cert="os">
+                        <div class="certification-header">
+                            <h4>Programming Fundamentals : Command Line Interface & Operating SystemCommands</h4>
+                            <div style="display: flex; align-items: center;">
+                                <span class="cert-date">2025</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="cert-dropdown">
+                            <div class="cert-image">
+                                <img src="{% static 'resume/os.png' %}" alt="Programming Fundamentals : Command Line Interface & Operating SystemCommands">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certification-item" data-cert="linux">
+                        <div class="certification-header">
+                            <h4>Linux for Beginners</h4>
+                            <div style="display: flex; align-items: center;">
+                                <span class="cert-date">2025</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="cert-dropdown">
+                            <div class="cert-image">
+                                <img src="{% static 'resume/linux.png' %}" alt="Linux for Beginners">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certification-item" data-cert="azureai">
+                        <div class="certification-header">
+                            <h4>Fundamentals of Azure AI services</h4>
+                            <div style="display: flex; align-items: center;">
+                                <span class="cert-date">2025</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="cert-dropdown">
+                            <div class="cert-image">
+                                <img src="{% static 'resume/azureai.png' %}" alt="Fundamentals of Azure AI services">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certification-item" data-cert="ai">
+                        <div class="certification-header">
+                            <h4>Fundamental AI Concepts</h4>
+                            <div style="display: flex; align-items: center;">
+                                <span class="cert-date">2025</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="cert-dropdown">
+                            <div class="cert-image">
+                                <img src="{% static 'resume/ai.png' %}" alt="Fundamental AI Concepts">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certification-item" data-cert="genai">
+                        <div class="certification-header">
+                            <h4>Fundamentals of Generative AI</h4>
+                            <div style="display: flex; align-items: center;">
+                                <span class="cert-date">2025</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="cert-dropdown">
+                            <div class="cert-image">
+                                <img src="{% static 'resume/genai.png' %}" alt="Fundamentals of Generative AI">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certification-item" data-cert="ml">
+                        <div class="certification-header">
+                            <h4>Fundamentals of Machine Learning</h4>
+                            <div style="display: flex; align-items: center;">
+                                <span class="cert-date">2025</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="cert-dropdown">
+                            <div class="cert-image">
+                                <img src="{% static 'resume/ml.png' %}" alt="Fundamentals of Machine Learning">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certification-item" data-cert="rgenai">
+                        <div class="certification-header">
+                            <h4>Responsible Generative AI</h4>
+                            <div style="display: flex; align-items: center;">
+                                <span class="cert-date">2025</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="cert-dropdown">
+                            <div class="cert-image">
+                                <img src="{% static 'resume/rgenai.png' %}" alt="Responsible Generative AI">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Kago. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Certification dropdown functionality
+            const certificationItems = document.querySelectorAll('.certification-item');
+            
+            certificationItems.forEach(item => {
+                const header = item.querySelector('.certification-header');
+                const dropdown = item.querySelector('.cert-dropdown');
+                
+                header.addEventListener('click', function() {
+                    // Close all other dropdowns
+                    certificationItems.forEach(otherItem => {
+                        if (otherItem !== item) {
+                            otherItem.classList.remove('active');
+                            otherItem.querySelector('.cert-dropdown').classList.remove('active');
+                        }
+                    });
+                    
+                    // Toggle current dropdown
+                    item.classList.toggle('active');
+                    dropdown.classList.toggle('active');
+                });
+            });
+
+            // Smooth scrolling for navigation links
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetSection = document.querySelector(targetId);
+                    
+                    if (targetSection) {
+                        const offsetTop = targetSection.offsetTop - 80; // Account for fixed navbar height
+                        window.scrollTo({
+                            top: offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // Mobile navigation toggle
+            const navToggle = document.querySelector('.nav-toggle');
+            const navLinks2 = document.querySelector('.nav-links');
+            
+            navToggle.addEventListener('click', function() {
+                navLinks2.classList.toggle('active');
+                navToggle.classList.toggle('active');
+            });
+
+            // Close mobile menu when clicking on a link
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks2.classList.remove('active');
+                    navToggle.classList.remove('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
